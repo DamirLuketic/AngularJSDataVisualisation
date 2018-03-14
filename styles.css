@@ -1,0 +1,26 @@
+.app-home h2 {
+  margin-left: 250px;
+}
+.app-chart h2 {
+  margin-left: 250px;
+}
+.app-chart .axis path,
+.app-chart .axis line {
+  fill: none;
+  stroke: #999;
+  shape-rendering: crispEdges;
+}
+.app-chart .tick {
+  font: 10px sans-serif;
+}
+#mainTitle {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.link-button {
+  padding: 2px 6px;
+  margin-top: 2px;
+  width: 95px;
+}

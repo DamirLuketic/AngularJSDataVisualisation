@@ -1,0 +1,12 @@
+.app-chart h2 {
+  margin-left: 250px;
+}
+.app-chart .axis path,
+.app-chart .axis line {
+  fill: none;
+  stroke: #999;
+  shape-rendering: crispEdges;
+}
+.app-chart .tick {
+  font: 10px sans-serif;
+}
