@@ -1,3 +1,3 @@
 var mainCtrl = app.controller('mainCtrl', function($scope) {
-    $scope.appName = 'AngularJS Data Visualisation '
+    $scope.appName = 'AngularJS Data Visualisation';
 })

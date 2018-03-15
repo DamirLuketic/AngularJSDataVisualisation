@@ -10,6 +10,16 @@
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.9",
-    "bootstrap": "^3.3.7"
+    "angular-mocks": "^1.6.9",
+    "bootstrap": "^3.3.7",
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "devDependencies": {
+    "jasmine-core": "^3.1.0"
   }
 }
