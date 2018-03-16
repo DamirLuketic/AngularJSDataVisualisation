@@ -16,6 +16,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
         'node_modules/angular/angular.js',
+        'assets/js/d3/d3.js',
         'assets/js/angular-route/angular-route.js',
         'node_modules/angular-mocks/angular-mocks.js',
         // 'src/*.*',
@@ -25,7 +26,9 @@ module.exports = function(config) {
         'src/components/home/home.controller.js',
         'src/components/home/home.controller.spec.js',
         'src/components/chart/chart.controller.js',
-        'src/components/chart/chart.controller.spec.js'
+        'src/components/chart/chart.controller.spec.js',
+        'src/shared/directives/scatter-chart.js',
+        'src/shared/directives/scatter-chart.spec.js'
     ],
 
 
@@ -39,7 +42,9 @@ module.exports = function(config) {
     preprocessors: {
         'src/app.controller.js': ['coverage'],
         'src/components/home/home.controller.js': ['coverage'],
-        'src/components/chart/chart.controller.js': ['coverage']
+        'src/components/chart/chart.controller.js': ['coverage'],
+        'src/shared/directives/scatter-chart.js': ['coverage'],
+        'src/**/*.html': ['ng-html2js']
     },
 
 
