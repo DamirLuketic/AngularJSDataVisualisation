@@ -6,7 +6,7 @@ var chartController = app.controller('chartCtrl', function($scope, $interval) {
     var randPoint = function() {
         var rand = Math.random;
         return { time: new Date(time.toString()), visitors: rand() * 100 };
-    }
+    };
 
     $scope.logs = [ randPoint() ];
 
