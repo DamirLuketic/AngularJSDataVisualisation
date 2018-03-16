@@ -8,3 +8,5 @@ Data visualisation set through D3.
 
 Unit Testing through "Karma", "Jasmine", "Angular-Mocks".
  Unit tested through "PhantomJS" browser. Coverage tested through npm packet "karma-coverage".
+ 
+Style through LESS. 
