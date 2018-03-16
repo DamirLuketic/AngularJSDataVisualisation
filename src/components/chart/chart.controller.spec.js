@@ -8,6 +8,7 @@ describe('Testing App', function () {
         var interval;
 
         beforeEach(inject(function ($controller, $interval) {
+            interval = $interval;
             ctrl = $controller('chartCtrl', { $scope: scope });
             interval = $interval;
         }));
@@ -21,7 +22,7 @@ describe('Testing App', function () {
             expect(scope.logs).toBeDefined();
         });
 
-        it('shoul interval is properly used', function () {
+        it('should interval is properly used', function () {
             interval.flush(1000);
             expect(scope.logs.length).toBe(2);
         });
