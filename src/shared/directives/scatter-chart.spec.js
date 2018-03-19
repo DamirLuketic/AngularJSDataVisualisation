@@ -9,7 +9,6 @@ describe('Test App', function() {
         var template;
         var templateAsHtml;
         var interval;
-        var restrict;
 
         beforeEach(inject(function($controller, $compile, $rootScope, $interval){
             chartScope = $rootScope.$new();
@@ -24,7 +23,6 @@ describe('Test App', function() {
             isolateScope  = element.isolateScope();
 
             interval = $interval;
-            restrict = element;
             templateAsHtml = template.html();
         }));
 
