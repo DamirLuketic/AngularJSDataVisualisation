@@ -1,5 +1,5 @@
 {
-  "name": "angularjsd3visualisation",
+  "name": "AngularJSDatavVisualisation",
   "version": "1.0.0",
   "description": "D3 Visualisation for AngularJS with UnitTesting",
   "main": "index.js",
